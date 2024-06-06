@@ -1,0 +1,24 @@
+{
+  "name": "testcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "testFiles": "**/*.feature",
+    "integrationFolder": "cypress/e2e",
+    "stepDefinitions": "cypress/step-definitions"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
